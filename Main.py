@@ -27,7 +27,7 @@ def load_env(dotenv_path: str = ".env") -> None:
 
 load_env()
 
-# Define Tickers and Date Range
+# Define Tickers and Date Ranges
 tickers = ['SPY','BND','GLD','QQQ','VTI']
 end_date = datetime.today()
 start_date = end_date - timedelta(days = 5*365)
