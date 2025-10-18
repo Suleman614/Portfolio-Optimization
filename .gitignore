@@ -416,3 +416,18 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+# --- Python venvs ---
+venv/
+env/
+
+# --- macOS ---
+.DS_Store
+
+# --- Python tooling & caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.ipynb_checkpoints/
