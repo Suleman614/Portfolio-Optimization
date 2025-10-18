@@ -1,0 +1,16 @@
+yfinance
+pandas
+numpy
+scipy
+matplotlib
+fredapi
+python-dotenv
+
+Explanation
+yfinance for downloading stock data
+pandas for DataFrame manipulation
+numpy for numerical computations (log returns, arrays, etc.)
+scipy for optimization (Sharpe ratio maximization)
+matplotlib for plotting the bar chart of portfolio weights
+fredapi optional FRED integration for risk-free rate
+python-dotenv loads your .env file with the FRED API key
