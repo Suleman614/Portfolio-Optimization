@@ -9,7 +9,7 @@ The script downloads historical price data using `yfinance`, computes log return
 
 ---
 
-## 📊 Features
+## Features
 - Downloads historical data using **yfinance**
 - Computes **log returns** and the **covariance matrix**
 - Maximizes **Sharpe ratio** under standard portfolio constraints
@@ -18,7 +18,7 @@ The script downloads historical price data using `yfinance`, computes log return
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 # 1. Create and activate a virtual environment
@@ -56,7 +56,7 @@ start_date = end_date - timedelta(days=5*365)
 # Risk-free rate (only used if no FRED key)
 risk_free_rate = 0.02 
 
-How It Works
+# How It Works
 Data Retrieval:
 Historical adjusted close prices are downloaded using yfinance.
 The script handles potential MultiIndex column formatting issues.
@@ -73,7 +73,7 @@ subject to the constraint that the sum of weights equals 1.
 Visualization:
 Displays a bar chart showing the optimized portfolio weights.
 
-Output Example
+# Output Example
 
 Console Output:
 Expected Annual Return: 11.3%
@@ -83,7 +83,7 @@ Sharpe Ratio: 1.45
 Chart:
 A bar chart displaying each asset’s allocation percentage.
 
-Notes:
+# Notes:
 If you encounter KeyError: 'Adj Close', yfinance may have returned MultiIndex columns — the script already includes logic to handle that.
 Ensure you have an active internet connection when downloading data from Yahoo Finance.
 The FRED API key is optional but recommended for real risk-free rates.
