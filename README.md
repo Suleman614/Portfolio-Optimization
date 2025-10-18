@@ -30,11 +30,13 @@ pip install -r requirements.txt
 ```
 
 Optional: FRED API Key
+
 If you want the script to pull a risk free rate directly from the Federal Reserve (FRED):
-Get a free API key from the Federal Reserve Economic Data (FRED) website.
-Create a .env file in the same directory as your script and add the line below:
+ 1. Get a free API key from the Federal Reserve Economic Data (FRED) website.[<FRED website>](<https://fred.stlouisfed.org/docs/api/api_key.html>)
+ 2. Create a .env file in the same directory as your script and add the line below:
 FRED_API_KEY=YOUR_FRED_KEY_HERE
-If you don’t have an API key, the script will ins
+
+If you don’t have an API key, the script will instead use a fixed risk free rate that you can modify directly in Main.py
 
 Run the script with:
 python3 Main.py
