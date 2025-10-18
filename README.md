@@ -93,3 +93,9 @@ The FRED API key is optional but recommended for real risk-free rates.
 License
 This project is intended for educational purposes only.
 Use at your own risk.
+
+## Credits
+
+This project was inspired by and parts were adapted from the YouTube tutorial:  
+[Modern Portfolio Optimization in Python (YouTube)](https://www.youtube.com/watch?v=9GA2WlYFeBU)  
+Code has been modified, refactored, and extended for educational purposes.
